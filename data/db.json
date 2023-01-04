@@ -1,0 +1,60 @@
+{
+  "novels": [
+    {
+      "title": "Handmaiden",
+      "author": "Marianne",
+      "preview": "This is handmaidens story.",
+      "contents": "Once there lkivaedfa dfasfasdf asdf adsf adsf asdf adsf asdf asdf asdf asdf asdf asdf asdf",
+      "id": 1
+    },
+    {
+      "title": "Space Journey",
+      "author": "Malcom",
+      "preview": "This is a Space Journey.",
+      "contents": "Once there was a spaceship lkivaedfa dfasfasdf asdf adsf adsf asdf adsf asdf asdf asdf asdf asdf asdf asdf",
+      "id": 2
+    },
+    {
+      "title": "A Love Story",
+      "author": "Luis",
+      "preview": "This is a love story.",
+      "contents": "Once fdasfdasdfa loves a spaceship lkivaedfa dfasfasdf asdf adsf adsf asdf adsf asdf asdf asdf asdf asdf asdf asdf",
+      "id": 3
+    },
+    {
+      "title": "Journey to the west",
+      "author": "Monk",
+      "preview": "This is a Journey to west Nepal.",
+      "contents": "Once there was a monkl who traveled to Nepal lkivaedfa dfasfasdf asdf adsf adsf asdf adsf asdf asdf asdf asdf asdf asdf asdf",
+      "id": 4
+    },
+    {
+      "title": "A Lonely Boy",
+      "author": "Suraj",
+      "preview": "Story of a lonely boy.",
+      "contents": "dafsdfasdfalk dasfjkadslk fakdjshf kjashdfhb asdjkfh asdf",
+      "id": 5
+    },
+    {
+      "title": "The Witch",
+      "author": "Ishan",
+      "preview": "This is a story of a sheep who gets eaten raw by a witch.",
+      "contents": "fdkljasnfajshd hdhas fhas fhasdkjlh dsakjfh aksdj hfkajsdhf kajsdhf kasjdhf askdjhf kajsdlhf ",
+      "id": 6
+    },
+    {
+      "title": "A Drunker",
+      "author": "Karma",
+      "preview": "Karma is a bEACH.",
+      "contents": "djkfanskdfhajskdn kjadshf kjashdf jkdshf jkahdsjklfh dsafsda",
+      "id": 7
+    },
+    {
+      "title": "hello world",
+      "author": "charles babbage",
+      "preview": "A computer",
+      "contents": "fasdfasdf dafasdf asdf dsaf as",
+      "id": 8
+    }
+  ]
+}

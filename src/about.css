@@ -1,0 +1,24 @@
+
+/* --------------about */
+
+.aboutcontainer {
+  background-color: #ef6c00;
+}
+
+
+.aboutcontainer .aboutheading {
+  text-align: center;
+}
+
+.aboutcontainer h1 {
+  /* border: 5px solid #ef6c00; */
+  border-radius: 1em;
+  text-align: center;
+  padding: .2em;
+  font-size: 3em;
+}
+
+.aboutcontainer p {
+  padding: 1em;
+  font-size: 1.3em;
+}

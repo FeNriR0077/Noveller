@@ -1,13 +1,427 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Kenia&display=swap');
+
+* {
+  /* font-family: 'Anybody', cursive;
+  font-family: 'Roboto', sans-serif; */
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  min-height: 100vh;
+}
+
+
+
+/* -----------------------------navbar--------------- */
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 3em;
+  align-items: center;
+  box-sizing: border-box;
+}
+ .navbar ul {
+  display: flex;
+  gap: 2em;
+  margin-left: 2em;
+ }
+
+ .navbar ul li {
+  list-style: none;
+ }
+
+ .navbar ul li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: rgb(82, 82, 82);
+ }
+
+ .navbar ul li a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-underline-offset: .4em;
+  font-weight: bold;
+ }
+
+ /* .navcontainer {
+  flex: 1;
+ } */
+
+.navcontainer2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2em;
+}
+.navcontainer3 {
+  display: flex;
+  justify-content: center;
+}
+
+.navcontainer3 li a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar .navcontainer3 li a:hover {
+  color: #ef6c00;
+  text-decoration: underline;
+  text-underline-offset: .4em;
+  font-weight: normal;
+}
+
+
+.navbar .navcontainer2 li a:hover {
+  /* background-color: rgb(19, 255, 125); */
+  color: #ef6c00;
+  text-decoration: none;
+}
+
+ /* ---------------Home----------------- */
+.maincontainer {
+  background-color: antiquewhite;
+}
+
+
+.homecontents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.homecontents h1 {
+  font-family: 'Anybody', cursive;
+  font-family: 'Kenia', cursive;
+  letter-spacing: .2em;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.homecontents .mainbuttoncontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.homecontents h2 {
+  font-family: monospace;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  color: #e04949;
+  letter-spacing: .15em;
+  border: 1px solid hotpink;
+  border-radius: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+.homecontents .mainheading {
+  text-transform: capitalize;
+  font-size: 4em;
+  word-spacing: .2em;
+  
+}
+
+.homecontents img {
+  width: 60%;
+}
+
+.writercontents {
+  background-color: #ef6c00;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.writercontents img {
+  padding: 2em;
+  width: 50%;
+  margin-right: 2em;
+  border-radius: 6em;
+}
+.writercontents h3 {
+  font-family: monospace;
+  align-self: center;
+  justify-self: center;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 3em;
+  text-align: center;
+}
+/* ------------------------- */
+
+.writercontents_two {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.writercontents_two img {
+  padding: 2em;
+  width: 50%;
+  margin-right: 2em;
+  border-radius: 6em;
+}
+.writercontents_two h3 {
+  font-family: monospace;
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+  font-size: 3em;
+  text-align: center;
+}
+
+.writercontents_two a {
+  font-family: monospace;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.writercontents_two a:hover {
+  color: #ef6c00;
+}
+
+/* ---------------------get started */
+
+
+.writercontents_editor {
+  
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: monospace;
+  justify-content: space-around;
+
+}
+.writercontents_editor .getstarted {
+  font-size: 8rem;
+  padding: .6em 0;
+  text-align: center;
+  font-family: inherit;
+}
+
+
+.writercontents_editor {
+  align-items: center;
+}
+
+
+.writercontents_editor li {
+  list-style: disc;
+  padding: .5em;
+  font-size: 1.5em;
+  margin-left: 1em;
+  font-family: monospace;
+}
+
+.writercontents_editor li a {
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.writercontents_editor li a:hover {
+  color: rgb(28, 162, 193);
+  text-decoration: underline;
+}
+
+/* --------------------editor */
+.editorcontainer {
+  background-color: #ef6c00;
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.editorcontainer .editor {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+.editorcontainer .editor a {
+  font-family: monospace;
+}
+
+.editorcontainer .editor a:hover {
+  color: #e04949;
+}
+
+
+/* ------------------------Discover */
+
+.discovercontainer {
+  min-height: 100vh;
+}
+.discovercontainer .discoverheading {
+  display: flex;
+  justify-content: center;
+}
+
+.discovercontainer .discoverheading {
+  background-color:  #ef6c00;
+  /* border-radius: 2em; */
+  text-align: center;
+  padding: .5em;
+}
+
+
+
+.novellistcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.listofnovels {
+  font-size: 1.7em;
+  margin: auto;
+  display: block;
+  width: 100%;
+  padding: 1em;
+}
+
+.novelpreview {
+  flex: 1 0 30%;
+  margin-top: 1em;
+  border-left: 4px #e04949 solid;
+  border-radius: 2em;
+  margin-left: .5em;
+  text-align: center;
+  padding-bottom: 1em;
+  max-width: 30%;
+  
+}
+
+
+.novelpreview:hover {
+  /* border: 4px #e04949 solid;
+  margin-right: .5em; */
+  background-color: #e04949;
+  transition: background-color  ease-in .5s;
+}
+
+.novelpreview h1, .novelpreview h2 {
+  font-size: 1.3em;
+}
+
+.novelpreview p {
+  font-size: 1em;
+}
+
+.novelpreview button {
+  font-size: 1.2em;
+  background-color: #ffffff;
+  color: red;
+  border: none;
+  border-radius: .2em;
+  padding: .3em;
+  margin-top: 1em;
+
+}
+.novelpreview button:hover {
+  background-color: #eecdcd;
+  cursor: pointer;
+}
+
+
+
+
+
+/* -------------------------create */
+
+.createcontainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  min-height: 100vh;
+}
+
+.createheading {
+  background-color: #ef6c00;
+  text-align: center;
+}
+
+.writingnovel {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.writingnovel .titleauthor {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.writingnovel .noveltext {
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+  justify-content: space-around;
+  padding-left: 1em;
+
+}
+
+.writingnovel .noveltext .novelwriting {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.writingnovel .noveltext .novelscreen {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+input, textarea {
+  border-radius: .3em;
+  font-size: 1em;
+  padding: .4em;
+  resize: initial;
+}
+
+
+textarea {
+
+}
+
+.submitbtn {
+  display: flex;
+  justify-content: center;
+  margin-right: 3em;
+  margin: 2em;
+}
+
+.submitbtn button {
+  font-size: 1.2em;
+  background-color: #1073e8;
+  color: whitesmoke;
+  border: none;
+  border-radius: .2em;
+  padding: .3em;
+
+}
+
+.submitbtn button:hover {
+  background-color: #2487ff;
+  cursor: pointer;
 }
