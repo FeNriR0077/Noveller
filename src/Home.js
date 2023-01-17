@@ -20,7 +20,7 @@ const Home = () => {
                 <h3 className="writersinfo">
                     Meet amazing writers on our website.
                 </h3>
-                <img src="./images/novel_writer.jpg" alt="novel writer" />
+                <img src="../images/novel_writer.jpg" alt="novel writer" />
             </div>
 
 

@@ -10,12 +10,12 @@ import Signin from './Signin';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Noveller'>
       <div className="maincontainer">
         <Navbar />
         <div className="maincontent">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/Noveller" element={<Home />} />
             {/* <Route path="/about" element={<About />} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/signin" element={<Signin />} />
