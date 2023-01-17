@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Noveller/static/css/main.71ef4284.css",
+    "main.js": "/Noveller/static/js/main.8df8db37.js",
+    "static/js/787.a2bf511c.chunk.js": "/Noveller/static/js/787.a2bf511c.chunk.js",
+    "index.html": "/Noveller/index.html",
+    "main.71ef4284.css.map": "/Noveller/static/css/main.71ef4284.css.map",
+    "main.8df8db37.js.map": "/Noveller/static/js/main.8df8db37.js.map",
+    "787.a2bf511c.chunk.js.map": "/Noveller/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71ef4284.css",
+    "static/js/main.8df8db37.js"
+  ]
+}
